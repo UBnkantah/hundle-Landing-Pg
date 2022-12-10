@@ -1,0 +1,41 @@
+.huddle{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: start;
+    padding: 20px 50px;
+    gap: 1em;
+    background-color: var(--veryPaleCyan);
+}
+.huddle .huddle-details{
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.huddle .huddle-details button{
+    padding: 8px 18px;
+    border-radius: 15px;
+    border: 1px solid var(--pinkColor);
+    background-color: var(--pinkColor);
+    color: white;
+    font-size: 16px;
+}
+.huddle .img{
+    max-width: 400px;
+}
+.huddle .img img{
+    width: 100%;
+}
+.huddle .huddle-details h1{
+    font-size: 30px;
+}
+.huddle .huddle-details p{
+    font-size: 18px;
+    font-weight: 500;
+}
+@media screen and (max-width: 767px) {
+    .huddle{
+        padding: 10px 30px;
+    }
+}

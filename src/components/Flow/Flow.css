@@ -1,0 +1,31 @@
+.flow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: start;
+    padding: 20px 50px;
+    gap: 1em;
+    flex-wrap: wrap;
+    box-shadow: 0.5px 0.5px 0.5px var(--grayishBlue);
+    border-radius: 20px;
+    margin: 20px;
+}
+.flow .img{
+    max-width: 400px;
+}
+.flow .img img{
+    width: 100%;
+}
+.flow .detail{
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.flow .detail h1{
+    font-size: 30px;
+}
+.flow .detail p{
+    font-size: 18px;
+    font-weight: 500;
+}

@@ -1,0 +1,32 @@
+.grow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    text-align: start;
+    gap: 1em;
+    flex-wrap: wrap;
+    box-shadow: 0.5px 0.5px 0.5px var(--grayishBlue);
+    border-radius: 20px;
+    margin: 20px;
+}
+.grow .detail{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    max-width: 400px;
+    
+}
+.grow .detail h1{
+    font-size: 30px;
+}
+.grow .detail p{
+    font-size: 18px;
+    font-weight: 500;
+}
+.grow .img{
+    max-width: 400px;
+}
+.grow .img img{
+    width: 100%;
+}
